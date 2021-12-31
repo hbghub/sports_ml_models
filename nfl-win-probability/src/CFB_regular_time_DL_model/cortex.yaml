@@ -1,0 +1,12 @@
+- name: cfb-in-game-win-prob-reg-time-dl
+  predictor:
+    type: python
+    path: predictor.py
+    config:
+      ANN_preprocessing_uri: s3://sp-mlplatform-eks-us-east-1-prod/mlflow/artifacts/186/3992bd2cf4e44cccb8b1714a861cb124/artifacts/CFB-in-game-win-prob-reg-time-ANN-preprocessing
+      model_ANN_uri: s3://sp-mlplatform-eks-us-east-1-prod/mlflow/artifacts/186/3992bd2cf4e44cccb8b1714a861cb124/artifacts/CFB-in-game-win-prob-reg-time-ANN
+      model_drive_uri: s3://sp-mlplatform-eks-us-east-1-prod/mlflow/artifacts/186/3992bd2cf4e44cccb8b1714a861cb124/artifacts/CFB-in-game-win-prob-reg-time-drive
+    env:
+      MLFLOW_TRACKING_URI: https://mlflow.prod.us-east-1.mlplatform.stats.com/api/
+      MLFLOW_TRACKING_USERNAME: bin.hu@statsperform.com
+      MLFLOW_TRACKING_PASSWORD: YXN5UjJHdzVaZWNsVkp1RVczU3IzaEZrUDZTUDNjQXptbGVKMVdGMEFtaz0=

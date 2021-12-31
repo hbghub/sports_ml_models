@@ -1,0 +1,12 @@
+awscli<2.0.0
+mlflow==1.9.*
+pytest==5.4.*
+ipykernel
+ipympl
+ipython
+jupyterlab
+pyathena
+scikit-learn
+xgboost
+stats.predeval
+tensorflow==2.*
