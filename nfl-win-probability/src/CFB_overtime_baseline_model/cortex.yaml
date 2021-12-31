@@ -1,0 +1,10 @@
+- name: cfb-in-game-win-prob-overtime-baseline
+  predictor:
+    type: python
+    path: predictor.py
+    config:
+      model_uri: s3://sp-mlplatform-eks-us-east-1-prod/mlflow/artifacts/189/6792260d868d4fcaa32b041b42fffa67/artifacts/CFB-in-game-win-prob-overtime-drive
+    env:
+      MLFLOW_TRACKING_URI: https://mlflow.prod.us-east-1.mlplatform.stats.com/api/
+      MLFLOW_TRACKING_USERNAME: bin.hu@statsperform.com
+      MLFLOW_TRACKING_PASSWORD: YXN5UjJHdzVaZWNsVkp1RVczU3IzaEZrUDZTUDNjQXptbGVKMVdGMEFtaz0=

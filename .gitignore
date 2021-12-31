@@ -4,7 +4,9 @@ node_modules
 .idea
 dist
 coverage
-venv
+venv/
+runtime/
+plot/
 */__pycache__
 *.pyc
 **/.ipynb_checkpoints

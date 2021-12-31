@@ -1,0 +1,3 @@
+awscli
+mlflow==1.9.*
+tensorflow==2.*

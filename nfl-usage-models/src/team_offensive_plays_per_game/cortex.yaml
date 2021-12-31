@@ -1,0 +1,10 @@
+- name: nfl-usage-team-offensive-plays
+  predictor:
+    type: python
+    path: predictor.py
+    config:
+      model_uri: s3://sp-mlplatform-eks-us-east-1-prod/mlflow/artifacts/94/96b5b25d52b24661a19db37f4ec0b824/artifacts/nfl-usage-team-offensive-plays/
+    env:
+      MLFLOW_TRACKING_URI: https://mlflow.prod.us-east-1.mlplatform.stats.com/api/
+      MLFLOW_TRACKING_USERNAME: bin.hu@statsperform.com
+      MLFLOW_TRACKING_PASSWORD: YXN5UjJHdzVaZWNsVkp1RVczU3IzaEZrUDZTUDNjQXptbGVKMVdGMEFtaz0=

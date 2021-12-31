@@ -1,0 +1,4 @@
+artifact_location: file:///Users/binhu/projects/nba-in-game-prediction-models/mlruns/1
+experiment_id: '1'
+lifecycle_stage: active
+name: nba-player-props-prediction-models

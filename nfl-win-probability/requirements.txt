@@ -1,0 +1,7 @@
+awscli==1.18.117
+mlflow==1.9.*
+pyathena
+scikit-learn
+tensorflow==2.*
+ipython==6.4.0
+ipywidgets==7.2.1

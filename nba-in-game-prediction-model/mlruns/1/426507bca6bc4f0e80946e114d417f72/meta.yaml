@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/binhu/projects/nba-in-game-prediction-models/mlruns/1/426507bca6bc4f0e80946e114d417f72/artifacts
+end_time: 1618437573390
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+name: ''
+run_id: 426507bca6bc4f0e80946e114d417f72
+run_uuid: 426507bca6bc4f0e80946e114d417f72
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1618436450995
+status: 4
+tags: []
+user_id: binhu

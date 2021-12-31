@@ -1,0 +1,10 @@
+- name: nfl-usage-player-rush-share
+  predictor:
+    type: python
+    path: predictor.py
+    config:
+      model_uri: s3://sp-mlplatform-eks-us-east-1-prod/mlflow/artifacts/97/40887e0ae7584004bb5789f8f5d5ccf4/artifacts/nfl-usage-player-rush-share/
+    env:
+      MLFLOW_TRACKING_URI: https://mlflow.prod.us-east-1.mlplatform.stats.com/api/
+      MLFLOW_TRACKING_USERNAME: bin.hu@statsperform.com
+      MLFLOW_TRACKING_PASSWORD: YXN5UjJHdzVaZWNsVkp1RVczU3IzaEZrUDZTUDNjQXptbGVKMVdGMEFtaz0=
