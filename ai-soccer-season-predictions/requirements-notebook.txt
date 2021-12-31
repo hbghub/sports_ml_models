@@ -3,5 +3,6 @@ requests
 matplotlib
 numpy
 pandas
+math
 jupyter
 ipywidgets
