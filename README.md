@@ -1,7 +1,8 @@
 # sports_ml_models
 This repo contains sports machine learning models.
-### ai-soccer-season-predictions
-### nba-in-game-prediction-model
-### nfl-team-strength
-### nfl-usage-models
-### nfl-win-probability
+
+### (1) ai-soccer-season-predictions
+### (2) nba-in-game-prediction-model
+### (3) nfl-team-strength
+### (4) nfl-usage-models
+### (5) nfl-win-probability
