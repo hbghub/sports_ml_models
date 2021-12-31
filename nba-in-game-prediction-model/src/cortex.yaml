@@ -1,0 +1,10 @@
+- name:  nba-player-props-season-simulation
+  predictor:
+    type: python
+    path: predictor.py
+    config:
+      model_uri: s3://sp-mlplatform-eks-us-east-1-prod/mlflow/artifacts/237/8818a2e85b764804b05f871d868b4025/artifacts/nba-player-props-season-simulation/
+    env:
+      MLFLOW_TRACKING_URI: https://mlflow.prod.us-east-1.mlplatform.stats.com/api/
+      MLFLOW_TRACKING_USERNAME: bin.hu@statsperform.com
+      MLFLOW_TRACKING_PASSWORD: YXN5UjJHdzVaZWNsVkp1RVczU3IzaEZrUDZTUDNjQXptbGVKMVdGMEFtaz0=

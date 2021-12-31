@@ -1,0 +1,17 @@
+dockerfiles:
+- dockerfile: "Dockerfile"
+  build_args:
+    GITHUB_USERNAME: $GITHUB_USERNAME
+    GITHUB_TOKEN: $GITHUB_TOKEN
+
+entrypoints:
+
+- name: train
+  dockerfile: "Dockerfile"
+  entrypoint: "src/train.py"
+  working_dir: "/app"
+  environment:
+    PYTHONPATH: src
+    MLFLOW_TRACKING_USERNAME: $MLFLOW_TRACKING_USERNAME
+    MLFLOW_TRACKING_PASSWORD: $MLFLOW_TRACKING_PASSWORD
+    MLFLOW_TRACKING_URI: $MLFLOW_TRACKING_URI

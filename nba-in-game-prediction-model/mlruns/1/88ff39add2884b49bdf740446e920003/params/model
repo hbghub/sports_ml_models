@@ -1,0 +1,1 @@
+{'solver': 'lbfgs', 'fit_intercept': True, 'C': 0.1, 'max_iter': 100000, 'tol': 1e-05, 'random_state': 42}
