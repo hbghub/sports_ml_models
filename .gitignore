@@ -1,0 +1,21 @@
+*.js
+!jest.config.js
+node_modules
+.idea
+dist
+coverage
+venv
+*/__pycache__
+*.pyc
+**/.ipynb_checkpoints
+# CDK asset staging directory
+.cdk.staging
+cdk.out
+cdk.context.json
+
+# Parcel build directories
+.cache
+.build
+
+input_data
+notebooks/AWS test events/*

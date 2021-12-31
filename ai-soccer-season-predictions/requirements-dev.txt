@@ -1,0 +1,5 @@
+xmltodict
+seaborn
+pandas
+numpy
+bokeh
