@@ -1,5 +1,5 @@
 # sports_ml_models
-This repo contains sports machine learning models.
+This repo contains sports machine learning models, as coded in python.
 
 ### (1) ai-soccer-season-predictions
 ### (2) nba-in-game-prediction-model
